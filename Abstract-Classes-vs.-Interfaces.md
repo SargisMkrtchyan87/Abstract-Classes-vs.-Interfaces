@@ -1,5 +1,5 @@
 # Abstract-Classes-vs.-Interfaces
-The choice of whether to design your functionality as an interface or an abstract class (a MustInherit class in Visual Basic) can sometimes be a difficult one. An abstract class is a class that cannot be instantiated, but must be inherited from. An abstract class may be fully implemented, but is more usually partially implemented or not implemented at all, thereby encapsulating common functionality for inherited classes. For details, see Abstract Classes.
+The choice of whether to design your functionality as an interface or an abstract class  can sometimes be a difficult one. An abstract class is a class that cannot be instantiated, but must be inherited from. An abstract class may be fully implemented, but is more usually partially implemented or not implemented at all, thereby encapsulating common functionality for inherited classes. For details, see Abstract Classes.
 An interface, by contrast, is a totally abstract set of members that can be thought of as defining a contract for conduct. The implementation of an interface is left completely to the developer.
 Both interfaces and abstract classes are useful for component interaction. If a method requires an interface as an argument, then any object that implements that interface can be used in the argument. For example:
 // C#
